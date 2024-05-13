@@ -75,7 +75,6 @@
       ],
       "linebreak-style": [
         "error",
-        "windows",
         "unix"
       ],
       "lines-between-class-members": "off",
