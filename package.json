@@ -75,7 +75,8 @@
       ],
       "linebreak-style": [
         "error",
-        "windows"
+        "windows",
+        "unix"
       ],
       "lines-between-class-members": "off",
       "max-classes-per-file": "off",
