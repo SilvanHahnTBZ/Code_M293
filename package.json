@@ -1,0 +1,173 @@
+{
+  "name": "@modbaukasten/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.2.4",
+    "@heroicons/react": "^2.1.1",
+    "axios": "^1.6.8",
+    "date-fns": "^3.6.0",
+    "react": "^18.2.0",
+    "react-day-picker": "^8.10.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.2",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.70",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx"
+          ],
+          "moduleDirectory": [
+            "src",
+            "node_modules"
+          ]
+        }
+      }
+    },
+    "rules": {
+      "arrow-parens": [
+        "error",
+        "as-needed"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "function-paren-newline": [
+        "error",
+        "consistent"
+      ],
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "ts": "never",
+          "tsx": "never"
+        }
+      ],
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": [
+        "error",
+        "windows"
+      ],
+      "lines-between-class-members": "off",
+      "max-classes-per-file": "off",
+      "max-depth": [
+        "error",
+        4
+      ],
+      "max-len": [
+        "error",
+        {
+          "code": 120
+        }
+      ],
+      "no-await-in-loop": "warn",
+      "no-empty-function": "off",
+      "@typescript-eslint/no-empty-function": "error",
+      "no-eval": "error",
+      "no-implied-eval": "error",
+      "@typescript-eslint/no-explicit-any": [
+        "warn"
+      ],
+      "no-shadow": "off",
+      "@typescript-eslint/no-shadow": [
+        "error"
+      ],
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "error",
+      "no-useless-constructor": "off",
+      "@typescript-eslint/no-useless-constructor": "error",
+      "no-use-before-define": "off",
+      "@typescript-eslint/no-use-before-define": [
+        "error"
+      ],
+      "react/jsx-filename-extension": [
+        "warn",
+        {
+          "extensions": [
+            ".tsx"
+          ]
+        }
+      ],
+      "complexity": [
+        "error",
+        10
+      ],
+      "prefer-promise-reject-errors": "warn",
+      "object-curly-newline": [
+        "error",
+        {
+          "multiline": true,
+          "consistent": true
+        }
+      ],
+      "operator-linebreak": [
+        "error",
+        "after"
+      ],
+      "prefer-destructuring": [
+        "warn",
+        {
+          "AssignmentExpression": {
+            "array": false
+          }
+        }
+      ],
+      "space-before-function-paren": [
+        "error",
+        "always"
+      ],
+      "yoda": [
+        "error",
+        "never",
+        {
+          "onlyEquality": true
+        }
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
